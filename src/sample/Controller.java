@@ -113,7 +113,7 @@ public class Controller implements Initializable {
             totalApplePrice += market.priceApples;
             avgApples = totalApplePrice / countApple;
             textAvgApples.setText("$" + money.format(avgApples));
-        } else {
+        } else {git remote add origin https://github.com/kymba7/FruitMarket.git
             feedbackText.setText("You don't have enough money!");
         }
         public void sellApples (ActionEvent actionEvent){
